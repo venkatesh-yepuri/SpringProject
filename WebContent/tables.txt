@@ -1,0 +1,1 @@
+create table usertable(userid number(10) primary key,firstName varchar2(30),lastName varchar2(30),permaLink varchar2(30),emailId varchar2(30));
