@@ -3,12 +3,12 @@
 	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
 	<display-name>Spring MVC Form Handling</display-name>
 	<servlet>
-		<servlet-name>Salambc3</servlet-name>
+		<servlet-name>SpringProject_Git</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>Salambc3</servlet-name>
+		<servlet-name>SpringProject_Git</servlet-name>
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
 </web-app>

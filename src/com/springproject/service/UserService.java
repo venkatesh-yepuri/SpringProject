@@ -23,7 +23,6 @@ public class UserService {
 		Transaction transaction = session.beginTransaction();
 		transaction.begin();
 		Serializable i = session.save(user);
-		System.out.println((Integer)i+"-----------------------------------");
 		transaction.commit();
 		session.close();
 		

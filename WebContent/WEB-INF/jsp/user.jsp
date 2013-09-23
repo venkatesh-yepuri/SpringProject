@@ -5,7 +5,7 @@
 </head>
 <body>
 	<h2>User Information</h2>
-	<form:form method="POST" action="/Salambc3/addUser">
+	<form:form method="POST" action="/SpringProject_Git/addUser">
 		<table>
 			<tr>
 				<td><form:label path="firstName">FirstName</form:label></td>
